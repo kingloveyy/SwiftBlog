@@ -8,11 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		3C2D0BD41AACB1990010588E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C2D0BD31AACB1990010588E /* AppDelegate.swift */; };
-		3C2D0BD61AACB1990010588E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C2D0BD51AACB1990010588E /* ViewController.swift */; };
-		3C2D0BD91AACB1990010588E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C2D0BD71AACB1990010588E /* Main.storyboard */; };
 		3C2D0BDB1AACB1990010588E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C2D0BDA1AACB1990010588E /* Images.xcassets */; };
-		3C2D0BDE1AACB1990010588E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3C2D0BDC1AACB1990010588E /* LaunchScreen.xib */; };
 		3C2D0BEA1AACB1990010588E /* SwiftBlogTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C2D0BE91AACB1990010588E /* SwiftBlogTests.swift */; };
+		3C2D0C071AACBD300010588E /* OAuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C2D0C061AACBD300010588E /* OAuthViewController.swift */; };
+		3C2D0C091AACBDBF0010588E /* OAuth.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C2D0C081AACBDBF0010588E /* OAuth.storyboard */; };
+		3C2D0C111AACC24E0010588E /* SVIndefiniteAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C2D0C0C1AACC24E0010588E /* SVIndefiniteAnimatedView.m */; };
+		3C2D0C121AACC24E0010588E /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 3C2D0C0E1AACC24E0010588E /* SVProgressHUD.bundle */; };
+		3C2D0C131AACC24E0010588E /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C2D0C101AACC24E0010588E /* SVProgressHUD.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,13 +31,19 @@
 		3C2D0BCE1AACB1990010588E /* SwiftBlog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftBlog.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C2D0BD21AACB1990010588E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3C2D0BD31AACB1990010588E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3C2D0BD51AACB1990010588E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		3C2D0BD81AACB1990010588E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3C2D0BDA1AACB1990010588E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		3C2D0BDD1AACB1990010588E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		3C2D0BE31AACB1990010588E /* SwiftBlogTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftBlogTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C2D0BE81AACB1990010588E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3C2D0BE91AACB1990010588E /* SwiftBlogTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftBlogTests.swift; sourceTree = "<group>"; };
+		3C2D0C061AACBD300010588E /* OAuthViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OAuthViewController.swift; sourceTree = "<group>"; };
+		3C2D0C081AACBDBF0010588E /* OAuth.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = OAuth.storyboard; sourceTree = "<group>"; };
+		3C2D0C0B1AACC24E0010588E /* SVIndefiniteAnimatedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVIndefiniteAnimatedView.h; sourceTree = "<group>"; };
+		3C2D0C0C1AACC24E0010588E /* SVIndefiniteAnimatedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVIndefiniteAnimatedView.m; sourceTree = "<group>"; };
+		3C2D0C0D1AACC24E0010588E /* SVProgressHUD-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD-Prefix.pch"; sourceTree = "<group>"; };
+		3C2D0C0E1AACC24E0010588E /* SVProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SVProgressHUD.bundle; sourceTree = "<group>"; };
+		3C2D0C0F1AACC24E0010588E /* SVProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVProgressHUD.h; sourceTree = "<group>"; };
+		3C2D0C101AACC24E0010588E /* SVProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVProgressHUD.m; sourceTree = "<group>"; };
+		3C2D0C141AACC2920010588E /* SwiftBlog-Bridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SwiftBlog-Bridge.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,11 +85,9 @@
 		3C2D0BD01AACB1990010588E /* SwiftBlog */ = {
 			isa = PBXGroup;
 			children = (
+				3C2D0BF71AACB5720010588E /* Classes */,
+				3C2D0C011AACB5720010588E /* Libs */,
 				3C2D0BD31AACB1990010588E /* AppDelegate.swift */,
-				3C2D0BD51AACB1990010588E /* ViewController.swift */,
-				3C2D0BD71AACB1990010588E /* Main.storyboard */,
-				3C2D0BDA1AACB1990010588E /* Images.xcassets */,
-				3C2D0BDC1AACB1990010588E /* LaunchScreen.xib */,
 				3C2D0BD11AACB1990010588E /* Supporting Files */,
 			);
 			path = SwiftBlog;
@@ -90,7 +96,9 @@
 		3C2D0BD11AACB1990010588E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				3C2D0BDA1AACB1990010588E /* Images.xcassets */,
 				3C2D0BD21AACB1990010588E /* Info.plist */,
+				3C2D0C141AACC2920010588E /* SwiftBlog-Bridge.h */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -110,6 +118,108 @@
 				3C2D0BE81AACB1990010588E /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3C2D0BF71AACB5720010588E /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				3C2D0BF81AACB5720010588E /* BusinessModel */,
+				3C2D0BF91AACB5720010588E /* Tools */,
+				3C2D0BFA1AACB5720010588E /* UI */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		3C2D0BF81AACB5720010588E /* BusinessModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = BusinessModel;
+			sourceTree = "<group>";
+		};
+		3C2D0BF91AACB5720010588E /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		3C2D0BFA1AACB5720010588E /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				3C2D0BFB1AACB5720010588E /* Discover */,
+				3C2D0BFC1AACB5720010588E /* Home */,
+				3C2D0BFD1AACB5720010588E /* Main */,
+				3C2D0BFE1AACB5720010588E /* Message */,
+				3C2D0BFF1AACB5720010588E /* OAuth */,
+				3C2D0C001AACB5720010588E /* Profile */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		3C2D0BFB1AACB5720010588E /* Discover */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Discover;
+			sourceTree = "<group>";
+		};
+		3C2D0BFC1AACB5720010588E /* Home */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		3C2D0BFD1AACB5720010588E /* Main */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		3C2D0BFE1AACB5720010588E /* Message */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Message;
+			sourceTree = "<group>";
+		};
+		3C2D0BFF1AACB5720010588E /* OAuth */ = {
+			isa = PBXGroup;
+			children = (
+				3C2D0C081AACBDBF0010588E /* OAuth.storyboard */,
+				3C2D0C061AACBD300010588E /* OAuthViewController.swift */,
+			);
+			path = OAuth;
+			sourceTree = "<group>";
+		};
+		3C2D0C001AACB5720010588E /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		3C2D0C011AACB5720010588E /* Libs */ = {
+			isa = PBXGroup;
+			children = (
+				3C2D0C0A1AACC24E0010588E /* SVProgressHUD */,
+			);
+			path = Libs;
+			sourceTree = "<group>";
+		};
+		3C2D0C0A1AACC24E0010588E /* SVProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				3C2D0C0B1AACC24E0010588E /* SVIndefiniteAnimatedView.h */,
+				3C2D0C0C1AACC24E0010588E /* SVIndefiniteAnimatedView.m */,
+				3C2D0C0D1AACC24E0010588E /* SVProgressHUD-Prefix.pch */,
+				3C2D0C0E1AACC24E0010588E /* SVProgressHUD.bundle */,
+				3C2D0C0F1AACC24E0010588E /* SVProgressHUD.h */,
+				3C2D0C101AACC24E0010588E /* SVProgressHUD.m */,
+			);
+			path = SVProgressHUD;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -192,8 +302,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3C2D0BD91AACB1990010588E /* Main.storyboard in Resources */,
-				3C2D0BDE1AACB1990010588E /* LaunchScreen.xib in Resources */,
+				3C2D0C091AACBDBF0010588E /* OAuth.storyboard in Resources */,
+				3C2D0C121AACC24E0010588E /* SVProgressHUD.bundle in Resources */,
 				3C2D0BDB1AACB1990010588E /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -212,8 +322,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3C2D0BD61AACB1990010588E /* ViewController.swift in Sources */,
+				3C2D0C071AACBD300010588E /* OAuthViewController.swift in Sources */,
+				3C2D0C131AACC24E0010588E /* SVProgressHUD.m in Sources */,
 				3C2D0BD41AACB1990010588E /* AppDelegate.swift in Sources */,
+				3C2D0C111AACC24E0010588E /* SVIndefiniteAnimatedView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -234,25 +346,6 @@
 			targetProxy = 3C2D0BE41AACB1990010588E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		3C2D0BD71AACB1990010588E /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3C2D0BD81AACB1990010588E /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		3C2D0BDC1AACB1990010588E /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3C2D0BDD1AACB1990010588E /* Base */,
-			);
-			name = LaunchScreen.xib;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		3C2D0BEB1AACB1990010588E /* Debug */ = {
@@ -343,6 +436,7 @@
 				INFOPLIST_FILE = SwiftBlog/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SwiftBlog/SwiftBlog-Bridge.h";
 			};
 			name = Debug;
 		};
@@ -353,6 +447,7 @@
 				INFOPLIST_FILE = SwiftBlog/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SwiftBlog/SwiftBlog-Bridge.h";
 			};
 			name = Release;
 		};
@@ -409,6 +504,7 @@
 				3C2D0BEF1AACB1990010588E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3C2D0BF01AACB1990010588E /* Build configuration list for PBXNativeTarget "SwiftBlogTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +513,7 @@
 				3C2D0BF21AACB1990010588E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -42,23 +42,26 @@ extension OAuthViewController: UIWebViewDelegate {
         
         let result = continueWithCode(request.URL!)
         
-//        if let code = result.code {
-//            println("可以换 accesstoke \(code)")
-//            
-//            let params = ["client_id": WB_Client_ID,
-//                "client_secret": WB_Client_Secret,
-//                "grant_type": WB_Grant_Type,
-//                "redirect_uri": WB_Redirect_URL_String,
-//                "code": code]
-//            
-//            let net = NetworkManager.sharedManager
-//            net.requestJSON(.POST, "https://api.weibo.com/oauth2/access_token", params, completion: { (result, error) -> () in
-//                
-//                println(result)
-//            })
-//        }
+        if let code = result.code {
+            println("可以换 accesstoke \(code)")
+            
+            let params = ["client_id": WB_Client_ID,
+                "client_secret": WB_Client_Secret,
+                "grant_type": WB_Grant_Type,
+                "redirect_uri": WB_Redirect_URL_String,
+                "code": code]
+
+            let net = NetWorkManager.sharedManager
+            net.requestJSON(.POST, "https://api.weibo.com/oauth2/access_token", params, completion: { (result, error) -> () in
+                
+                println(result)
+            })
+        }
         if !result.load {
-            println(request.URL)
+            if result.reloadPage {
+                SVProgressHUD.showInfoWithStatus("你真的残忍的拒绝吗？", maskType: SVProgressHUDMaskType.Gradient)
+                loadAuthPage()
+            }
         }
         
         return result.load

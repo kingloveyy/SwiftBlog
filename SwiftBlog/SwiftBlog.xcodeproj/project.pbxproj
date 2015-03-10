@@ -15,6 +15,7 @@
 		3C2D0C111AACC24E0010588E /* SVIndefiniteAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C2D0C0C1AACC24E0010588E /* SVIndefiniteAnimatedView.m */; };
 		3C2D0C121AACC24E0010588E /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 3C2D0C0E1AACC24E0010588E /* SVProgressHUD.bundle */; };
 		3C2D0C131AACC24E0010588E /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C2D0C101AACC24E0010588E /* SVProgressHUD.m */; };
+		3C7803841AAEDD4C00974636 /* NetWorkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C7803831AAEDD4C00974636 /* NetWorkManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		3C2D0C0F1AACC24E0010588E /* SVProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVProgressHUD.h; sourceTree = "<group>"; };
 		3C2D0C101AACC24E0010588E /* SVProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVProgressHUD.m; sourceTree = "<group>"; };
 		3C2D0C141AACC2920010588E /* SwiftBlog-Bridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SwiftBlog-Bridge.h"; sourceTree = "<group>"; };
+		3C7803831AAEDD4C00974636 /* NetWorkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetWorkManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,6 +142,7 @@
 		3C2D0BF91AACB5720010588E /* Tools */ = {
 			isa = PBXGroup;
 			children = (
+				3C7803831AAEDD4C00974636 /* NetWorkManager.swift */,
 			);
 			path = Tools;
 			sourceTree = "<group>";
@@ -322,6 +325,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C7803841AAEDD4C00974636 /* NetWorkManager.swift in Sources */,
 				3C2D0C071AACBD300010588E /* OAuthViewController.swift in Sources */,
 				3C2D0C131AACC24E0010588E /* SVProgressHUD.m in Sources */,
 				3C2D0BD41AACB1990010588E /* AppDelegate.swift in Sources */,

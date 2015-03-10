@@ -103,6 +103,8 @@ public class SwiftNetWorking {
         return join("&", array)
     }
     
+    public init() {}
+    
     /// 全局网络会话
     lazy var session: NSURLSession? = {
         return NSURLSession.sharedSession()

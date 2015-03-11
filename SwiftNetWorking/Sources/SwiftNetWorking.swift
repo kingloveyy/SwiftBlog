@@ -18,6 +18,46 @@ public class SwiftNetWorking {
     ///  定义闭包
     public typealias Completion = ((resule: AnyObject?, error: NSError?)->())
     
+    
+    ///  下载图像并且保存到沙盒
+    ///
+    ///  :param: urlString  urlString
+    ///  :param: completion 完成回调
+    func downloadImage(urlString: String, _ completion: Completion) {
+        
+        // 1. 目标路径
+        let path = fullImageCachePath(urlString)
+        
+        // 2. 缓存检测，如果文件已经下载完成直接返回
+        if NSFileManager.defaultManager().fileExistsAtPath(path) {
+            //            println("\(urlString) 图片已经被缓存")
+            completion(result: nil, error: nil)
+            return
+        }
+        
+        // 3. 下载图像 － 如果 url 真的无法从字符串创建
+        // 不会调用 completion 的回调
+        if let url = NSURL(string: urlString) {
+            self.session!.downloadTaskWithURL(url) { (location, _, error) -> Void in
+                
+                // 错误处理
+                if error != nil {
+                    completion(result: nil, error: error)
+                    return
+                }
+                
+                // 将文件复制到缓存路径
+                NSFileManager.defaultManager().copyItemAtPath(location.path!, toPath: path, error: nil)
+                
+                // 直接回调，不传递任何参数
+                completion(result: nil, error: nil)
+                }.resume()
+        } else {
+            let error = NSError(domain: SimpleNetwork.errorDomain, code: -1, userInfo: ["error": "无法创建 URL"])
+            completion(result: nil, error: error)
+        }
+    }
+    
     ///  请求JSON
     public func requestJSON(method: HTTPMethod, _ urlString: String, _ params: [String: String]?, completion: Completion) {
         if let request = request(method, urlString, params) {

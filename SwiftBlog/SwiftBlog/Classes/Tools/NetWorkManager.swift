@@ -11,6 +11,7 @@ import SwiftNetWorking
 
 class NetWorkManager {
     
+    /// 单例 swift 1.2版本更新，
     private static let instance = NetWorkManager()
     class var sharedManager: NetWorkManager {
         return instance

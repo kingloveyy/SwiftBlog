@@ -28,6 +28,8 @@
 		3C75F21C1ABA8DF400D2F2C7 /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C75F21B1ABA8DF400D2F2C7 /* Profile.storyboard */; };
 		3C75F21E1ABA8E0300D2F2C7 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C75F21D1ABA8E0300D2F2C7 /* ProfileViewController.swift */; };
 		3C7803841AAEDD4C00974636 /* NetWorkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C7803831AAEDD4C00974636 /* NetWorkManager.swift */; };
+		3CFB76B11ABAC20700B1E24E /* Compose.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CFB76B01ABAC20700B1E24E /* Compose.storyboard */; };
+		3CFB76B31ABAC23000B1E24E /* ComposeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CFB76B21ABAC23000B1E24E /* ComposeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,6 +72,8 @@
 		3C75F21B1ABA8DF400D2F2C7 /* Profile.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Profile.storyboard; sourceTree = "<group>"; };
 		3C75F21D1ABA8E0300D2F2C7 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		3C7803831AAEDD4C00974636 /* NetWorkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetWorkManager.swift; sourceTree = "<group>"; };
+		3CFB76B01ABAC20700B1E24E /* Compose.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Compose.storyboard; sourceTree = "<group>"; };
+		3CFB76B21ABAC23000B1E24E /* ComposeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ComposeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -175,6 +179,7 @@
 		3C2D0BFA1AACB5720010588E /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				3CFB76AF1ABAC1FC00B1E24E /* Compose */,
 				3C2D0BFB1AACB5720010588E /* Discover */,
 				3C2D0BFC1AACB5720010588E /* Home */,
 				3C2D0BFD1AACB5720010588E /* Main */,
@@ -259,6 +264,15 @@
 				3C2D0C101AACC24E0010588E /* SVProgressHUD.m */,
 			);
 			path = SVProgressHUD;
+			sourceTree = "<group>";
+		};
+		3CFB76AF1ABAC1FC00B1E24E /* Compose */ = {
+			isa = PBXGroup;
+			children = (
+				3CFB76B01ABAC20700B1E24E /* Compose.storyboard */,
+				3CFB76B21ABAC23000B1E24E /* ComposeViewController.swift */,
+			);
+			path = Compose;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -348,6 +362,7 @@
 				3C75F2141ABA8D4D00D2F2C7 /* Home.storyboard in Resources */,
 				3C2D0BDB1AACB1990010588E /* Images.xcassets in Resources */,
 				3C75F20A1ABA8C5F00D2F2C7 /* Main.storyboard in Resources */,
+				3CFB76B11ABAC20700B1E24E /* Compose.storyboard in Resources */,
 				3C75F2181ABA8D7600D2F2C7 /* Message.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -371,6 +386,7 @@
 				3C2D0C071AACBD300010588E /* OAuthViewController.swift in Sources */,
 				3C1C4C491AB35D6F0063CE51 /* SwiftDict2Model.swift in Sources */,
 				3C75F20C1ABA8CA100D2F2C7 /* MainTabBarController.swift in Sources */,
+				3CFB76B31ABAC23000B1E24E /* ComposeViewController.swift in Sources */,
 				3C75F2161ABA8D5C00D2F2C7 /* HomeViewController.swift in Sources */,
 				3C75F21E1ABA8E0300D2F2C7 /* ProfileViewController.swift in Sources */,
 				3C75F20E1ABA8CBD00D2F2C7 /* MainTabBar.swift in Sources */,

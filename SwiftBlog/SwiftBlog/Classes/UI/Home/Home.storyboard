@@ -4,7 +4,7 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7516"/>
     </dependencies>
     <scenes>
-        <!--发现-->
+        <!--首页-->
         <scene sceneID="1gr-uC-8js">
             <objects>
                 <tableViewController id="gFq-hT-9Jm" customClass="HomeViewController" customModule="SwiftBlog" customModuleProvider="target" sceneMemberID="viewController">
@@ -25,7 +25,7 @@
                             <outlet property="delegate" destination="gFq-hT-9Jm" id="vpN-7M-ORw"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="发现" id="po8-Ww-dy8"/>
+                    <navigationItem key="navigationItem" title="首页" id="po8-Ww-dy8"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6gb-5f-s1S" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

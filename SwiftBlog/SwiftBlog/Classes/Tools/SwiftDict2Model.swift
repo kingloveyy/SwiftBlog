@@ -10,7 +10,7 @@ import Foundation
 
 
 @objc protocol DictModelProtocol {
-
+    
     ///  自定义类映射表
     ///
     ///  :returns: 返回可选映射关系字典
@@ -34,6 +34,8 @@ class SwiftDict2Model {
     func objectWithDictionary(dict: NSDictionary, cls: AnyClass) -> AnyObject? {
         
         let dictInfo = fullModelInfo(cls)
+        
+        //        println(dictInfo)
         
         let obj: AnyObject = cls.alloc()
         
@@ -67,10 +69,11 @@ class SwiftDict2Model {
             
             if type == "NSDictionary" {
                 if let subObj: AnyObject = objectWithDictionary(value as! NSDictionary, cls: cls) {
-                } else if type == "NSArray" {
-                    if let subObj: AnyObject = objectsWithArray(value as! NSArray, cls: cls) {
-                        list.append(subObj)
-                    }
+                    list.append(subObj)
+                }
+            } else if type == "NSArray" {
+                if let subObj: AnyObject = objectsWithArray(value as! NSArray, cls: cls) {
+                    list.append(subObj)
                 }
             }
         }
@@ -90,7 +93,7 @@ class SwiftDict2Model {
     ///
     ///  :returns: 返回模型完整信息
     func fullModelInfo(cls: AnyClass) -> [String: String] {
-    
+        
         // 检测缓冲池
         if let cache = modelCache["\(cls)"] {
             return cache
@@ -120,7 +123,7 @@ class SwiftDict2Model {
         if let cache = modelCache["\(cls)"] {
             return cache
         }
-
+        
         var count: UInt32 = 0
         let properties = class_copyPropertyList(cls, &count)
         

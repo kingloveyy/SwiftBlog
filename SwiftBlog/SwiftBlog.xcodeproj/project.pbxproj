@@ -16,6 +16,17 @@
 		3C2D0C111AACC24E0010588E /* SVIndefiniteAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C2D0C0C1AACC24E0010588E /* SVIndefiniteAnimatedView.m */; };
 		3C2D0C121AACC24E0010588E /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 3C2D0C0E1AACC24E0010588E /* SVProgressHUD.bundle */; };
 		3C2D0C131AACC24E0010588E /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C2D0C101AACC24E0010588E /* SVProgressHUD.m */; };
+		3C75F20A1ABA8C5F00D2F2C7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C75F2091ABA8C5F00D2F2C7 /* Main.storyboard */; };
+		3C75F20C1ABA8CA100D2F2C7 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C75F20B1ABA8CA100D2F2C7 /* MainTabBarController.swift */; };
+		3C75F20E1ABA8CBD00D2F2C7 /* MainTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C75F20D1ABA8CBD00D2F2C7 /* MainTabBar.swift */; };
+		3C75F2101ABA8D1B00D2F2C7 /* Discover.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C75F20F1ABA8D1B00D2F2C7 /* Discover.storyboard */; };
+		3C75F2121ABA8D3700D2F2C7 /* DiscoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C75F2111ABA8D3700D2F2C7 /* DiscoverViewController.swift */; };
+		3C75F2141ABA8D4D00D2F2C7 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C75F2131ABA8D4D00D2F2C7 /* Home.storyboard */; };
+		3C75F2161ABA8D5C00D2F2C7 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C75F2151ABA8D5C00D2F2C7 /* HomeViewController.swift */; };
+		3C75F2181ABA8D7600D2F2C7 /* Message.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C75F2171ABA8D7600D2F2C7 /* Message.storyboard */; };
+		3C75F21A1ABA8D8600D2F2C7 /* MessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C75F2191ABA8D8600D2F2C7 /* MessageViewController.swift */; };
+		3C75F21C1ABA8DF400D2F2C7 /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C75F21B1ABA8DF400D2F2C7 /* Profile.storyboard */; };
+		3C75F21E1ABA8E0300D2F2C7 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C75F21D1ABA8E0300D2F2C7 /* ProfileViewController.swift */; };
 		3C7803841AAEDD4C00974636 /* NetWorkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C7803831AAEDD4C00974636 /* NetWorkManager.swift */; };
 /* End PBXBuildFile section */
 
@@ -47,6 +58,17 @@
 		3C2D0C0F1AACC24E0010588E /* SVProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVProgressHUD.h; sourceTree = "<group>"; };
 		3C2D0C101AACC24E0010588E /* SVProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVProgressHUD.m; sourceTree = "<group>"; };
 		3C2D0C141AACC2920010588E /* SwiftBlog-Bridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SwiftBlog-Bridge.h"; sourceTree = "<group>"; };
+		3C75F2091ABA8C5F00D2F2C7 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		3C75F20B1ABA8CA100D2F2C7 /* MainTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		3C75F20D1ABA8CBD00D2F2C7 /* MainTabBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTabBar.swift; sourceTree = "<group>"; };
+		3C75F20F1ABA8D1B00D2F2C7 /* Discover.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Discover.storyboard; sourceTree = "<group>"; };
+		3C75F2111ABA8D3700D2F2C7 /* DiscoverViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiscoverViewController.swift; sourceTree = "<group>"; };
+		3C75F2131ABA8D4D00D2F2C7 /* Home.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		3C75F2151ABA8D5C00D2F2C7 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		3C75F2171ABA8D7600D2F2C7 /* Message.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Message.storyboard; sourceTree = "<group>"; };
+		3C75F2191ABA8D8600D2F2C7 /* MessageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageViewController.swift; sourceTree = "<group>"; };
+		3C75F21B1ABA8DF400D2F2C7 /* Profile.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Profile.storyboard; sourceTree = "<group>"; };
+		3C75F21D1ABA8E0300D2F2C7 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		3C7803831AAEDD4C00974636 /* NetWorkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetWorkManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -166,6 +188,8 @@
 		3C2D0BFB1AACB5720010588E /* Discover */ = {
 			isa = PBXGroup;
 			children = (
+				3C75F20F1ABA8D1B00D2F2C7 /* Discover.storyboard */,
+				3C75F2111ABA8D3700D2F2C7 /* DiscoverViewController.swift */,
 			);
 			path = Discover;
 			sourceTree = "<group>";
@@ -173,6 +197,8 @@
 		3C2D0BFC1AACB5720010588E /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				3C75F2131ABA8D4D00D2F2C7 /* Home.storyboard */,
+				3C75F2151ABA8D5C00D2F2C7 /* HomeViewController.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -180,6 +206,9 @@
 		3C2D0BFD1AACB5720010588E /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				3C75F2091ABA8C5F00D2F2C7 /* Main.storyboard */,
+				3C75F20B1ABA8CA100D2F2C7 /* MainTabBarController.swift */,
+				3C75F20D1ABA8CBD00D2F2C7 /* MainTabBar.swift */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -187,6 +216,8 @@
 		3C2D0BFE1AACB5720010588E /* Message */ = {
 			isa = PBXGroup;
 			children = (
+				3C75F2171ABA8D7600D2F2C7 /* Message.storyboard */,
+				3C75F2191ABA8D8600D2F2C7 /* MessageViewController.swift */,
 			);
 			path = Message;
 			sourceTree = "<group>";
@@ -203,6 +234,8 @@
 		3C2D0C001AACB5720010588E /* Profile */ = {
 			isa = PBXGroup;
 			children = (
+				3C75F21B1ABA8DF400D2F2C7 /* Profile.storyboard */,
+				3C75F21D1ABA8E0300D2F2C7 /* ProfileViewController.swift */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
@@ -310,7 +343,12 @@
 			files = (
 				3C2D0C091AACBDBF0010588E /* OAuth.storyboard in Resources */,
 				3C2D0C121AACC24E0010588E /* SVProgressHUD.bundle in Resources */,
+				3C75F21C1ABA8DF400D2F2C7 /* Profile.storyboard in Resources */,
+				3C75F2101ABA8D1B00D2F2C7 /* Discover.storyboard in Resources */,
+				3C75F2141ABA8D4D00D2F2C7 /* Home.storyboard in Resources */,
 				3C2D0BDB1AACB1990010588E /* Images.xcassets in Resources */,
+				3C75F20A1ABA8C5F00D2F2C7 /* Main.storyboard in Resources */,
+				3C75F2181ABA8D7600D2F2C7 /* Message.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -328,9 +366,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C75F2121ABA8D3700D2F2C7 /* DiscoverViewController.swift in Sources */,
 				3C7803841AAEDD4C00974636 /* NetWorkManager.swift in Sources */,
 				3C2D0C071AACBD300010588E /* OAuthViewController.swift in Sources */,
 				3C1C4C491AB35D6F0063CE51 /* SwiftDict2Model.swift in Sources */,
+				3C75F20C1ABA8CA100D2F2C7 /* MainTabBarController.swift in Sources */,
+				3C75F2161ABA8D5C00D2F2C7 /* HomeViewController.swift in Sources */,
+				3C75F21E1ABA8E0300D2F2C7 /* ProfileViewController.swift in Sources */,
+				3C75F20E1ABA8CBD00D2F2C7 /* MainTabBar.swift in Sources */,
+				3C75F21A1ABA8D8600D2F2C7 /* MessageViewController.swift in Sources */,
 				3C2D0C131AACC24E0010588E /* SVProgressHUD.m in Sources */,
 				3C2D0BD41AACB1990010588E /* AppDelegate.swift in Sources */,
 				3C2D0C111AACC24E0010588E /* SVIndefiniteAnimatedView.m in Sources */,

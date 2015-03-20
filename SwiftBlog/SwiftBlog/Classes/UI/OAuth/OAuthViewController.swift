@@ -54,7 +54,8 @@ extension OAuthViewController: UIWebViewDelegate {
             let net = NetWorkManager.sharedManager
             net.requestJSON(.POST, "https://api.weibo.com/oauth2/access_token", params, completion: { (result, error) -> () in
                 
-                println(result)
+                let token = AccessToken(dict: result as! NSDictionary)
+                token.saveAccessToken()
             })
         }
         if !result.load {
